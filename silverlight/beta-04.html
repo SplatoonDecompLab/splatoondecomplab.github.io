@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silverlight - Beta 0.4</title>
+</head>
+
+<body>
+    <h1>Silverlight Beta 0.4</h1>
+    <p>This is the fourth beta release of Silverlight and the largest one so far. Note that a lot of new modules are
+        experimental and may not work properly. Below are all the
+        changes made to the mod menu in this version:</p>
+
+    <h2>Module state saving support is here!</h2>
+
+    <p>The mod menu now has a "Save Module State" button which saves all of the module states. This
+        means that if you
+        enable a module and then close the game, the module will still be enabled when you decide boot up the game
+        again. <b>Be cautious when using this functionality as you may have to reset your save config if you use it
+            while a module that crashes in the plaza is enabled since that will cause your game to crash on boot.</b>
+    </p>
+
+    <h2>New Modules</h2>
+    <ul>
+        <li>Aimbot - Automatically aim at enemies.</li>
+        <li>Packet Analyzer - Analyze ingoing and outgoing TCP/UDP network packets.</li>
+        <li>Mission Online - Makes bosses enemies, and mission items completely functional in online matches.
+            (Experimental, crashes when playing with more than 4 players)</li>
+        <li>Join Ranked Through Friends - Matchmake by joining your friends, similarly to Regular Battles.</li>
+        <li>Substrafe Fix - Fixes an in-game bug that makes the player unable to substrafe with ink mines and seekers.
+        </li>
+        <li>Splatfest Button - Queue splatfest at any time even if one isn't active.</li>
+        <li>Disable RNG Calc - Disable all use of RNG in the game; makes all RNG functions return 0.</li>
+        <li>DebugMove - Restored version of DebugMoving that was accidentally shown in a Splatoon gameplay video. (It
+        </li>
+        <li>Light Graphics Mode - Hide several game effects to make the game run better on lower-end devices.</li>
+        appears that its functionality is different in the final version.)</li>
+        <li>Obj Viewer - Render only objects. Disables the rendering of all map terrain.</li>
+        <li>Silverlight Matchmaking - Makes you matchmake ONLY with Silverlight users when enabled. Only works in
+            Regular Battles currently.</li>
+        <li>Disable Death Effect - Disable the fade to black screen effect when dead and when respawning.</li>
+        <li>Disable Crosshair</li>
+        <li>Disable Subline - Disable the line that indicates where the thrown sub weapon will reach</li>
+        <li>Hide Low Ink Warning - Disable the GUI display and sound that informs you that you do not have enough ink
+        </li>
+        <li>Emote module - Select and play emote client side. (Press DPad-Right during a match to play the emote.)</li>
+        <li>Anti-Invincibility - Make people using Kraken and Bubbler killable.</li>
+        <li>Skybox Changer</li>
+        <li>Trail - Show a cosmetic trail behind your inkling's shoes. (Only works with mission gear currently.)</li>
+        <li>Pause Menu Always Usable</li>
+        <li>All Unlocked - Unlock all available gear and weapons. (Enabled by default.)</li>
+        <li>Friendly Fire - Make all firing in the game cause no damage (including from other players) and make shots
+            deal</li>
+        no knockback.</li>
+        <li>Disable All Particles - Disables every single particle in the game.</li>
+        <li>Shadows During Night - Enables lighting shadows during night time or splatfest mode.</li>
+        <li>Reset Ink - Resets the ink on the ground. (Client side.)</li>
+        <li>Skip Intro - Skip the match intro. (Experimental)</li>
+        <li>Teleport - Set a position and teleport to it at any time.</li>
+        <li>Extended Leave Threshold - Increase the time you have to press continue to next match before it kicks you to
+            the lobby</li>
+        <li>Hide Damage Overlay - Hide the overlay that the game shows when you have damage that indicates how much
+            damage you have taken</li>
+        <li>Jump With B Button -</li>
+        <li>Splash Wall Fix - Place a Splash Wall down at any time you want, even if you have already placed one,
+            without waiting.</li>
+    </ul>
+
+    <h2>Module Adjustments</h2>
+    <ul>
+        <li>Always Movable - Camera will always follow the player's camera, including the intro.</li>
+        <li>Always Movable - Movement will always be possible when specials that normally restrain your movement are
+            active.</li>
+        <li>Several miscellaneous adjustments have been made to improve the usage of the mod menu.</li>
+    </ul>
+
+    <h2>Game Fixes</h2>
+    <ul>
+        <li>Fixed a critical game vulnerability.</li>
+        <li>Fixed invalid object crash.</li>
+        <li>Fixed story mode objects in VSGame crashes.</li>
+        <li>Fixed 1v7 match crash when being the host. (Support for customizable team permutations will be added in a
+            later update.)</li>
+    </ul>
+
+    <h2>Menu Fixes</h2>
+    <ul>
+        <li>Fixed an issue that caused Silent Splat Bombs to be always enabled.</li>
+        <li>Fixed a critical memory leak related to cache invalidation.</li>
+        <li>Auto-enabled modules now work properly.</li>
+        <li>The "Quit Game" button now properly closes your game instead of crashing it.</li>
+    </ul>
+</body>
+
+</html>
